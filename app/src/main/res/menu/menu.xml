@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_fragment_me_one">
+        <item
+            android:id="@+id/item_fragment_me_one"
+            android:checkable="true"
+            android:title="我的收藏" />
+        <item
+            android:id="@+id/item_fragment_me_two"
+            android:checkable="true"
+            android:title="我的下载" /><!--UINavigationBar-->
+    </group>
+    <group android:id="@+id/group_fragment_me_two">
+        <item
+            android:id="@+id/item_fragment_me_one_one"
+            android:checkable="true"
+            android:title="积分商城" />
+        <item
+            android:id="@+id/item_fragment_me_two_two"
+            android:checkable="true"
+            android:title="会员状态" />
+    </group>
+    <group android:id="@+id/group_fragment_me_three">
+        <item
+            android:id="@+id/item_fragment_me_one_one_one"
+            android:checkable="true"
+            android:title="意见反馈" />
+        <item
+            android:id="@+id/item_fragment_me_two_two_two"
+            android:checkable="true"
+            android:title="投稿专区" />
+        <item
+            android:id="@+id/item_fragment_me_two_two_three"
+            android:checkable="true"
+            android:title="联系我们" />
+    </group>
+</menu>
